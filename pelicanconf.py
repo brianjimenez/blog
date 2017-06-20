@@ -7,6 +7,8 @@ SITENAME = u'Bioinformatics Sandbox'
 SITEURL = ''
 SITESUBTITLE = '/bio'
 SITETAGLINE = 'Sandbox'
+TWITTER_USERNAME = 'irrati0nal'
+PDF_GENERATOR = False
 
 PATH = 'content'
 
@@ -28,7 +30,9 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),)
 
 # Social widget
-SOCIAL = (('Github', 'https://github.com/brianjimenez'),)
+SOCIAL = (('twitter', 'http://twitter.com/irrati0nal'),
+          ('linkedIn', 'http://linkedin.com/in/brianjimenez'),
+          ('github', 'http://github.com/brianjimenez'),)
 
 DEFAULT_PAGINATION = 10
 
